@@ -27,6 +27,11 @@ public class Main {
 		System.out.println("\nLong Minumun Value = " + myMinLongValue);
 		System.out.println("Long Maximun Value = " + myMaxLongValue);
 		
+		byte myNewByteValue = (byte)(myMinByteValue / 2);
+		short myNewShortValue = (short)(myMinShortValue / 2);
+		System.out.println("\nNew Byte Value = " + myNewByteValue);
+		System.out.println("New Short Value = " + myNewShortValue);
+
 		
 		
 	}
